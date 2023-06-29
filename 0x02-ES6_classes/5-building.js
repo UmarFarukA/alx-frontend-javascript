@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 export default class Building {
-    constructor(sqft) {
+    constructor(sqft = Number) {
         this._sqft = sqft;
     }
 
