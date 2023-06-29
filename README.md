@@ -1,1 +1,1 @@
-This project is all about learning front-end.
+This project is all about learning Front-end development
