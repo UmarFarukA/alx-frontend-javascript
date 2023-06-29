@@ -13,9 +13,7 @@ export default class HolbertonCourse {
     }
 
     set name(newName) {
-        if (typeof (newName) === 'string') {
-            this._name = newName;
-        }
+        this._name = newName;
     }
 
     get length() {
@@ -23,9 +21,7 @@ export default class HolbertonCourse {
     }
 
     set length(newLength) {
-        if (typeof (newLength) === 'number') {
-            this._length = newLength;
-        }
+        this._length = newLength;
     }
 
     get students() {
@@ -33,10 +29,7 @@ export default class HolbertonCourse {
     }
 
     set students(newStudents) {
-        if (typeof (newStudents) === 'object') {
-
-            this._students = newStudents;
-        }
+        this._students = newStudents;
     }
 
 }
