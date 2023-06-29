@@ -2,11 +2,16 @@
 
 export default class Building {
     constructor(sqft = Number) {
-        this._sqft = sqft;
+
+        this.sqft = sqft;
     }
 
     get sqft() {
         return this._sqft;
+    }
+
+    set sqft(val) {
+        this._sqft = val;
     }
 
     evacuationWarningMessage() {
