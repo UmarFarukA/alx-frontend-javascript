@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 export default class Car {
 
     constructor(brand = String, motor = String, color = String) {
