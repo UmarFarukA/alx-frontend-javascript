@@ -1,5 +1,6 @@
 /* eslint-disable */
 
-export default function getStudentsByLocation(arr, loc) {
-    return arr.filter(el => el.location === loc);
+export default function getStudentsByLocation(students, loc) {
+    const arr = students.filter(el => el.location === loc);
+    return arr;
 }
